@@ -11,9 +11,12 @@ The code is written in Python 3.7
 
 The script accepts 3-digit [ISO 639-3](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) language codes.
 ```
-python panlex_bilingual_extract.py --source_language=spa\
-				   --target_language=eng\
-				   --output_directory=data/lexicons
+python Panlex-Lexicon-Extractor/extract.py 
+  --source_language="eng" --target_language="eng"
+  --output_directory="data/lexicons"
+  --panlex_dir="data/"
+  --sql_database="data/panlex.db"
+
 ```
 
 # Citation
