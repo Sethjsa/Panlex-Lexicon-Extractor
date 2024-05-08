@@ -14,9 +14,9 @@ The script accepts 3-digit [ISO 639-3](https://en.wikipedia.org/wiki/List_of_ISO
 # extract one lexicon
 tgt_lang="xxx"
 python panlex_bilingual_extract.py --source_language="eng" --target_language="${tgt_lang}" \
-        # --output_directory="data/lexicons" \
-        # --panlex_dir="data/" \
-        # --sql_database="data/panlex.db"
+        --output_directory="data/lexicons" \
+        --panlex_dir="data/" \
+        --sql_database="data/panlex.db"
 
 # extract all lexicons
 python extract_all.py 
