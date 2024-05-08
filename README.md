@@ -1,13 +1,13 @@
 # Panlex-Lexicon-Extractor
 The script is a tool to extract bilingual lexicon for pair of languages from the [Panlex Database](https://db.panlex.org/) released by [Panlex](https://panlex.org/).
 # Extracted Lexicons (English-{target})
-[Download](https://www.dropbox.com/s/nz4vfoqj8bipe2w/lexicons.tar.gz?dl=0) extracted lexicons for 38 languages.
+Extracted lexicons for all languages are available in data/lexicons
 # Usage
-The code is written in Python 2.7.
+The code is written in Python 3.7
 
 [Download](https://drive.google.com/file/d/1tyACWPYrOQJ4m20dTjDPWtpX1XGYWtyf/view?usp=sharing) the required file of Panlex language information. Put the downloaded file under the folder of 'data'
 
-[Download](https://drive.google.com/file/d/1WiAkuBOFt0oFARvA1OWb_YsxPIDcKigW/view?usp=sharing) the preprocessed SQLite file of Panlex database, uncompress and put the file under the folder of 'data'
+[Download](https://db.panlex.org/panlex_lite-20240401.zip) and unzip the SQLite file of Panlex database, put the panlex.db under the folder of 'data'
 
 The script accepts 3-digit [ISO 639-3](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) language codes.
 ```
